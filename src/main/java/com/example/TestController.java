@@ -24,7 +24,7 @@ public class TestController {
 	{
 		System.out.println("show details controller called");
 		String ip=InetAddress.getLocalHost().toString();
-		return "result-"+ip; 
+		return "result222-"+ip; 
 	}
 	
 	
