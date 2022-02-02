@@ -7,8 +7,8 @@ phases:
     commands:
       - mvn clean install
 artifacts:
-  discard-paths: no
+  discard-paths: yes
   files:
     - target/*
-    - scripts
+    - scripts/*
 
